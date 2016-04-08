@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textGris"
+    android:padding="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="horizontal">
+
+    <njdevelop.cl.especialistavendedor.TextViewCustom
+        android:id="@+id/itemtitle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:text="Cliente"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <njdevelop.cl.especialistavendedor.TextViewCustom
+        android:id="@+id/itempasillo"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Pasillo"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+
+    <njdevelop.cl.especialistavendedor.TextViewCustom
+        android:id="@+id/itemestado"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+
+        android:gravity="center"
+        android:text="Estado"
+        android:textAppearance="@android:style/TextAppearance.Large" />
+</LinearLayout>

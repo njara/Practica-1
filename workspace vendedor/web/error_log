@@ -1,0 +1,14 @@
+[28-Jan-2016 03:32:43 UTC] PHP Notice:  Undefined index: cliente in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 22
+[28-Jan-2016 03:32:43 UTC] PHP Notice:  Undefined index: pasillo in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 22
+[28-Jan-2016 03:32:43 UTC] PHP Notice:  Undefined index: estado in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 22
+[28-Jan-2016 03:32:43 UTC] PHP Notice:  Undefined offset: 13 in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 25
+[28-Jan-2016 03:32:44 UTC] PHP Notice:  Undefined index: cliente in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 22
+[28-Jan-2016 03:32:44 UTC] PHP Notice:  Undefined index: pasillo in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 22
+[28-Jan-2016 03:32:44 UTC] PHP Notice:  Undefined index: estado in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 22
+[28-Jan-2016 03:32:44 UTC] PHP Notice:  Undefined offset: 14 in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 25
+[28-Jan-2016 03:33:08 UTC] PHP Notice:  Undefined index: cliente in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 22
+[28-Jan-2016 03:33:08 UTC] PHP Notice:  Undefined index: pasillo in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 22
+[28-Jan-2016 03:33:08 UTC] PHP Notice:  Undefined index: estado in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 22
+[28-Jan-2016 03:33:08 UTC] PHP Notice:  Undefined offset: 15 in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 25
+[28-Jan-2016 03:34:12 UTC] PHP Notice:  Undefined offset: 16 in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 25
+[28-Jan-2016 03:34:14 UTC] PHP Notice:  Undefined offset: 17 in /home/njaracl/public_html/tecnoa/serv_denunciar.php on line 25

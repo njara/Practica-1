@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Especialista Cliente</string>
+    <string name="action_settings">Settings</string>
+    <string name="tienda">Tienda: </string>
+    <string name="idTienda">--</string>
+    <string name="nombreTienda">Homecenter Parque Arauco</string>
+    <string name="pasillo">Usted está en: </string>
+    <string name="nombrePasillo">No Info</string>
+    <string name="infoBoton">Presion el botón para solcitar\nAtención Especializada</string>
+    <string name="title_activity_resultado"></string>
+    <string name="textResultado">Su solicitud ha sido enviada\nexitosamente. Favor mostrar el\ncódigo al vendedor experto que\nte contactará brevemente.</string>
+</resources>

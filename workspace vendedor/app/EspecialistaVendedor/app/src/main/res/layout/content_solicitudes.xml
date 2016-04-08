@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Blanco"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="njdevelop.cl.especialistavendedor.SolicitudesActivity"
+    tools:showIn="@layout/activity_solicitudes">
+
+    <njdevelop.cl.especialistavendedor.TextViewCustom
+        android:id="@+id/textViewVendedor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/titleVendedor"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/colorPrimary" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBarra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewVendedor"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp">
+
+        <njdevelop.cl.especialistavendedor.TextViewCustom
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Cliente"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@color/colorPrimary" />
+
+        <njdevelop.cl.especialistavendedor.TextViewCustom
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Pasillo"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@color/colorPrimary" />
+
+        <njdevelop.cl.especialistavendedor.TextViewCustom
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Estado"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewSolicitudes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayoutBarra" />
+</RelativeLayout>

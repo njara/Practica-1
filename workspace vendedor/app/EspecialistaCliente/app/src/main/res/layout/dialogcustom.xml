@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <njdevelop.cl.especialistacliente.TextViewCustom
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:scaleType="center"
+        android:textColor="@color/textGris"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:text="Ingrese su Nombre"/>
+    <njdevelop.cl.especialistacliente.EditTextCustom
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:singleLine="true"
+        android:layout_marginBottom="4dp"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:hint="Ej: Luis Jara" />
+</LinearLayout>
